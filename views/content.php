@@ -1,6 +1,6 @@
 <!-- Content -->
 <main>
-    <h2>All your vacations needs in one place.</br>Header Image?</h2>
+    <h2>All your vacations needs in one place.</h2>
     <!--FORM TO BE FIXED IN ORDER TO FUNCTION (names, paths, etc.)-->
     <form>
         <nav class="formNav">
@@ -11,7 +11,7 @@
             </ul>
         </nav>
         <div class="initialForm">
-        <h3>Your Dream Vacation Awaits</h3>
+            <h2>Your Dream Vacation Awaits</h2>
         </div>
         <div class="tripFrom">
             <div class="tripFrom__input">
@@ -30,6 +30,9 @@
                 <label>Returning</label>
                 <input type=date />
             </div>
+            <div class="tripFrom__input">
+                <input class="tripFrom__input_btn" type=button value="Search" />
+            </div>
         </div>   
         <div class="tripFrom">
             <div class="tripFrom__input">
@@ -43,6 +46,9 @@
             <div class="tripFrom__input">
                 <label>Returning</label>
                 <input type=date />
+            </div>
+            <div class="tripFrom__input">
+                <input class="tripFrom__input_btn" type=button value="Search" />
             </div>
         </div>
         <div class="tripFrom">
@@ -58,23 +64,26 @@
                 <label>Drop Off Date</label>
                 <input type=date />
             </div>
+            <div class="tripFrom__input">
+                <input class="tripFrom__input_btn" type=button value="Search" />
+            </div>
         </div>
     </form>
     <div class="deals">
-        <h2>Explore and Save More, Worry Less!</h2>
+        <h2>Explore & Save More, Worry Less!</h2>
         <div class="deals__popular">
             <h3>Popular Destinations</h3>
             <div class="deals__popular_opt">
-                <p><a href="#">Location 1 (Img?)</a></p>
+                <p><a href="#">Cuba (Img?)</a></p>
             </div>
             <div class="deals__popular_opt">
-                <p><a href="#">Location 2 (Img?)</a></p>
+                <p><a href="#">Japan (Img?)</a></p>
             </div>
             <div class="deals__popular_opt">
-                <p><a href="#">Location 3 (Img?)</a></p>
+                <p><a href="#">Paris (Img?)</a></p>
             </div>
             <div class="deals__popular_opt">
-                <p><a href="#">Location 4 (Img?)</a></p>
+                <p><a href="#">New York(Img?)</a></p>
             </div>
         </div>
         <div class="deals__budget">

@@ -1,11 +1,13 @@
 /* ---------- Fonts ----------- */
 /* ---------- FEEL FREE TO CHANGE STUFF----------- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
 /* ---------- General Styling ----------- */
 html{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -23,14 +25,21 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: grey;
-    border: 1px solid black;
+    background-color: #6cbeb5;
+    border-bottom: 1px solid black;
     padding: 0.5em;
 }
 
+
 .homeLink{
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
-    color: white;
+    color: #fff8f0;
+    transition: 0.3s;
+}
+
+.homeLink:hover{
+    color: #594b86;
 }
 
 .menu ul{
@@ -47,12 +56,12 @@ header{
 }
 .menu a{
     text-decoration: none;
-    color: white;
+    color: #fff8f0;
     transition: 0.3s;
 }
 
 .menu a:hover{
-    color: orange;
+    color: #594b86;
 }
 
 /* ---------- Content Styling ----------- */
@@ -62,6 +71,7 @@ main{
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-evenly;
+    background-color: #fff8f0;
 }
 
 
@@ -70,11 +80,18 @@ form{
     width: 75%;
     margin: 0 auto;
     text-align: center;
-    border: 1px solid black;
-    background-color: lightsteelblue;
+    border-radius: 20px;
+    background-color: #fcc224;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
     padding: 1em 3em 5em 3em;
 }
 
+
+.initialForm h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}
 
 .formNav ul{
     display: flex;
@@ -87,14 +104,15 @@ form{
 
 .formNav__link{
     list-style: none;
-    color: white;
-    transition: 0.3s;
+    color: #ffffff;
+    transition: 0.2s;
     font-size: 20px;;
 }
 
 .formNav__link:hover{
     cursor: pointer;
-    color: black;
+    text-decoration: underline;
+    color: #594b86;
 }
 
 .tripFrom{
@@ -107,6 +125,23 @@ form{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 1em;
+}
+
+.tripFrom__input_btn{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8f0;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
+    transition: 0.2s;
+    position: absolute;
+}
+
+.tripFrom__input_btn:hover{
+    background-color: #6cbeb5;
+    border: 1px solid grey;
 }
 
 label{
@@ -119,11 +154,16 @@ label{
 input{
     display: inline-block;
     margin-bottom: 1em;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Deals Section Styling*/
+/* Deals Section Styling */
 .deals{
     padding: 2em 0;
+}
+
+.deals h2{
+    border-bottom: 1px solid lightgrey;;
 }
 
 .deals__popular h3, .deals__budget h3{
@@ -134,13 +174,15 @@ input{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 3em 0;
+    padding: 2em 0 3em 0;
     justify-content: space-evenly;
 }
 
 .deals__popular_opt, .deals__budget_opt{
     padding: 2em;
+    margin-bottom: 1em;
     border: 1px solid black;
+    background-color: #ff8811;
 }
 
 .deals__popular_opt a, .deals__budget_opt a{
@@ -159,7 +201,7 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: steelblue;
+    background-color: #6cbeb5;
     padding: 1em;
 }
 
@@ -181,10 +223,10 @@ footer .menu li{
 
 footer .menu a{
     text-decoration: none;
-    color: white;
+    color: #fff8f0;
     transition: 0.3s;
 }
 
 footer .menu a:hover{
-    color: orange;
+    color: #594b86;
 }
